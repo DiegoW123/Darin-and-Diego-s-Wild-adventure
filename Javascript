@@ -1,0 +1,6 @@
+let randomHero;
+let testHero = {
+name: 'Hero',
+race: 'Half-Elf',
+class: 'Monk'
+}
