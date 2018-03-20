@@ -1,12 +1,10 @@
-let randomHero;
-// Thought I would start with a variable that will eventually be called to create the hero
 let testHero = {
-// This Object is a test hero that shows what I want to create randomly
-name: 'Hero',
-race: 'Half-Elf',
-class: 'Monk'
-stats: [10, 11, 12, 13, 14, 15, 16, 17, 18]
+  // This Object is a test hero that shows what I want to create randomly... may add more as time goes by and I figure out that I want more  //options
+  name: 'Hero',
+  race: 'Half-Elf',
+  class: 'Monk',
+  stats: [10, 11, 12, 13, 14, 15, 16, 17, 18]
 }
-let createRandomHero (function() {
-  
-}
+let randomHero = prompt('Hello and welcome to Darin and Diegos Wild Adventure. Please enter your name!')
+  if (name != false || randomHero != null) {
+    console.log(`Nice to meet you ${name}`)
